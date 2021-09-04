@@ -2,11 +2,11 @@ import { Postagem } from "./postagem"
 
 export const usuarioLogado = [
     {
-        idUsuario: 1,
-        email: 'admin',
-        senha: 'admin',
-        nome: 'admin',
-        foto: '../../../assets/usuario/default.png',
+        idUsuario: undefined,
+        email: undefined,
+        senha: undefined,
+        nome: undefined,
+        foto: '',
         postagens: Array<Postagem>()
     }
 ]
