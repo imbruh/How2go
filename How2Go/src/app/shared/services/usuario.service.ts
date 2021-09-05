@@ -10,7 +10,7 @@ import { MensagemService } from './mensagem.service';
 })
 
 export class UsuarioService {
-  URL_USUARIOS="http://localhost:8080/usuarios/";
+  URL_USUARIOS="https://h2g-b.herokuapp.com/usuarios/";
   usuario_logado= usuarioLogado;
   usuario = new Usuario();
   foto: Observable<any>;
